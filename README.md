@@ -1,7 +1,8 @@
 # speaker_recogonition_system
 This is a MATLAB-based speaker recognition system designed for both identification and verification of speakers using audio recordings. The project utilizes digital signal processing and statistical modeling techniques to analyze and classify human voices.
 
-Features
+# Features
+
 Speaker Identification: Determines the identity of a speaker from a predefined database.
 
 Speaker Verification: Confirms whether the claimed identity of a speaker is true.
@@ -12,14 +13,14 @@ Speaker Modeling: Utilizes Gaussian Mixture Models (GMMs) for classification.
 
 User Interface: Basic GUI for ease of testing and demonstration.
 
-Technologies Used
+# Technologies Used
 MATLAB (R202x or newer recommended)
 
 Signal Processing Toolbox
 
 Statistics and Machine Learning Toolbox
 
-How It Works
+# How It Works
 Audio samples are processed to extract MFCC features.
 
 Each speaker's features are modeled using a GMM.
@@ -28,10 +29,10 @@ For recognition, the system compares new audio input against stored models and s
 
 For verification, it checks if the input matches a claimed speaker identity with a confidence threshold.
 
-Evaluation
+# Evaluation
 The system achieves good accuracy in quiet environments with consistent recording conditions. Performance may degrade in noisy or low-quality recordings.
 
-Future Improvements
+# Future Improvements
 Integration with deep learning for improved robustness
 
 Real-time audio processing
